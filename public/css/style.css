@@ -1,7 +1,17 @@
 body {background-color:aliceblue; 
-	color:#FF8B76;
+	color:#31E890;
 	font-family: 'Libre Baskerville', serif;}
 
-h1 {color:#31E862;}
+h1 {color:#A9FF34;}
 
-h2 {color:#31E862;}
+h2 {color:#A9FF34;}
+
+.nav-link {color:#8C50E8;}
+
+table {color:grey; 
+	margin-left: 2px; 
+	border: 1px solid black; 
+	border-spacing: 10px 2px; 
+	border-collapse: separate}
+
+th {color:fuchsia;}
