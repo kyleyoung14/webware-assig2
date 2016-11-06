@@ -8,6 +8,18 @@ h2 {color:#A9FF34;}
 
 .nav-link {color:#8C50E8;}
 
+.fencer {font-style:italic;}
+
+.male {color:#8C50E8;}
+
+.female {color:deeppink;}
+
+.listName {font-size: large}
+
+#fav {font-weight:bold; 
+	font-variant:small-caps; 
+	color:teal;}
+
 table {color:grey; 
 	margin-left: 2px; 
 	border: 1px solid black; 
