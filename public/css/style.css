@@ -1,24 +1,27 @@
 body {background-color:aliceblue; 
-	color:#31E890;
+	color:gray;
 	font-family: 'Libre Baskerville', serif;}
 
-h1 {color:#A9FF34;}
+h1 {color:#31E873;}
 
-h2 {color:#A9FF34;}
+h2 {color:#31E873;}
 
 .nav-link {color:#8C50E8;}
 
 .fencer {font-style:italic;}
 
-.male {color:#8C50E8;}
-
-.female {color:deeppink;}
-
 .listName {font-size: large}
 
-#fav {font-weight:bold; 
-	font-variant:small-caps; 
+.fancy {font-variant:small-caps;}
+
+.gold {color:gold;}
+.silver{color:silver;}
+.bronze{color:#CD7F32;}
+
+.fav {font-weight:bold;  
 	color:teal;}
+
+.fav.listName {font-variant:small-caps;}
 
 table {color:grey; 
 	margin-left: 2px; 
@@ -26,4 +29,7 @@ table {color:grey;
 	border-spacing: 10px 2px; 
 	border-collapse: separate}
 
-th {color:fuchsia;}
+th {color:#A34EE8;}
+
+.resize {max-width: 25%;
+	max-height: 25%;}

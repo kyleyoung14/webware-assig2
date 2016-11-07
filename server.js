@@ -28,6 +28,21 @@ var server = http.createServer (function (req, res) {
     case '/img/lee_kiefer.jpg':
       sendFile(res, 'public/img/lee_kiefer.jpg', 'image/jpeg')
       break
+    case '/img/Emese_Szasz.jpg':
+      sendFile(res, 'public/img/Emese_Szasz.jpg', 'image/jpeg')
+      break
+    case '/img/junghwan_kim.jpg':
+      sendFile(res, 'public/img/junghwan_kim.jpg', 'image/jpeg')
+      break
+    case '/img/race_imboden.jpg':
+      sendFile(res, 'public/img/race_imboden.jpg', 'image/jpeg')
+      break
+    case '/img/sangyoung_park.jpg':
+      sendFile(res, 'public/img/sangyoung_park.jpg', 'image/jpeg')
+      break
+    case '/img/Sofya_Velikaya.jpg':
+      sendFile(res, 'public/img/Sofya_Velikaya.jpg', 'image/jpeg')
+      break
     default:
       res.end('404 not found')
   }
