@@ -22,6 +22,9 @@ var server = http.createServer (function (req, res) {
     case '/css/bootstrap.min.css':
       sendFile(res, 'public/css/bootstrap.min.css', 'text/css')
       break
+    case '/css/bootstrap.min.css.map':
+      sendFile(res, 'public/css/bootstrap.min.css.map', 'text/css')
+      break
     case '/js/scripts.js':
       sendFile(res, 'public/js/scripts.js', 'text/javascript')
       break
