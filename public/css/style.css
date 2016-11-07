@@ -2,9 +2,9 @@ body {background-color:aliceblue;
 	color:gray;
 	font-family: 'Libre Baskerville', serif;}
 
-h1 {color:#31E873;}
+h1 {color:steelblue;}
 
-h2 {color:#31E873;}
+h2 {color:steelblue;}
 
 .nav-link {color:#8C50E8;}
 
@@ -23,6 +23,11 @@ h2 {color:#31E873;}
 
 .fav.listName {font-variant:small-caps;}
 
+.name {font-size: xx-large;}
+
+.resize:hover{max-width: 40%;
+			max-height: 40%;}
+
 table {color:grey; 
 	margin-left: 2px; 
 	border: 1px solid black; 
@@ -33,3 +38,5 @@ th {color:#A34EE8;}
 
 .resize {max-width: 25%;
 	max-height: 25%;}
+
+.fencerList {list-style-type: none;}
